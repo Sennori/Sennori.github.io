@@ -1,0 +1,42 @@
+body {
+	background: url("images/background_scarf.jpg");
+	background-size: cover;
+}
+
+#navigation {
+	position: fixed
+	top: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #555;
+	color: rgba(0,0,0,.2);
+/*	width: 200px;
+	height: 84px;
+	background-color: #000000*/
+}
+
+.navigation-li {
+	display: inline;
+	text-align: center;
+	border-bottom: 1px solid #555;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+.active {
+	background-color: #B8F119;
+	color: #FFFFFF;
+}
+
+li a:hover {
+	background-color: #B8F119
+	color: #FFFFFF;
+}
+
+h1, p {
+	color: #009999;
+}
