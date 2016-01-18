@@ -6,7 +6,6 @@ body {
 	background-position: 0px 6px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	f
 }
 
 #navigation {
@@ -18,10 +17,12 @@ body {
 	top: 0;
 	width: 100%;
 	background-color: rgb(200,200,200);
+	font-family: Arial, sans-serif;
 }
 
 .navigation-li {
 	float:left;
+	font-family: Arial, sans-serif;
 }
 
 li a {
@@ -30,12 +31,15 @@ li a {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	font-family: Arial, sans-serif;
+	background-color: rgb(75,75,75);
 }
 
 .navigation-li a:hover {
 	background-color: #B8F119;
 	color: rgb(75,75,75);
 	font-weight: bold;
+	font-family: Arial, sans-serif;
 }
 
 .active {
@@ -73,10 +77,8 @@ a {
 	width: 100px;
 	height: 50px;
 	background-color: rgb(75,75,75);
-	text-align: center;
 }
 
-.button {
-	display: block;
-	text-align: center;
+div {
+	padding-left: 50px;
 }
