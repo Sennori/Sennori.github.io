@@ -1,0 +1,171 @@
+@import url(../fonts/gotham/?family=Gotham);
+@import url(../fonts/cpfont_tte/?family=CP+Font);
+@import url(../fonts/league-gothic/?family=League+Gothic);
+
+body {
+	font-family: 'Gotham', Arial, sans-serif;
+	padding-top: 50px;
+	background-image: url("../images/background_scarf.jpg");
+	background-size: cover;
+	background-position: 0px 6px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#navigation {
+	list-style-type: none;
+	margin: 0;
+/*	padding: 0;*/
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-family: Arial, sans-serif;
+/*	background-color: rgb(200,200,200);*/
+	background-color: #e8c66a;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.navigation-li {
+	float:left;
+	font-family: Arial, sans-serif;
+}
+
+li a {
+	display: block;
+	color: #009999;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	background-color: rgb(75,75,75);
+}
+
+.navigation-li a:hover {
+	background-color: #B8F119;
+	color: rgb(75,75,75);
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
+
+.active {
+	background-color: #B8F119;
+	color: #000000;
+}
+
+#slogan{
+	color: #009999;
+	font-style: italic;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'League Gothic', sans-serif;
+	margin-bottom: .25em;
+}
+
+h1 {
+	font-family: 'CP Font', Arial, sans-serif;
+	color: #009999;
+	font-weight: normal;
+	font-size: 80px;
+	margin-bottom: 0em;
+}
+
+h3 {
+	font-family: 'League Gothic', Arial, sans-serif;
+	color: #009999;
+	font-weight: normal;
+	font-size: 30px;
+	margin-bottom: .25em;
+	margin-top: 0em;
+}
+
+p {
+	font-family: 'Gotham', Arial, sans-serif;
+	font-weight: normal;
+	color: rgb(75,75,75);
+	width: 33%;
+}
+
+li, ul {
+	font-family: 'Gotham', Arial, sans-serif;
+	font-weight: normal;
+	color: rgb(75,75,75);
+}
+
+a {
+	color: #009999;
+	text-decoration: none;
+/*	text-align: center;
+	padding: 7px 16px;*/
+	font-family: Arial, sans-serif;
+	background-color: rgb(75,75,75);
+}
+
+.button {
+    font-family: 'Gotham', Arial, sans-serif;
+	font-weight: bold;
+	background-color: rgb(75,75,75);
+    border: none;
+    color: rgb(75,75,75);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.inner-wrapper {
+	margin: 0 5% auto;
+}
+
+header {
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #e8c66a;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #ffc675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #e89c6c;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #ff957e;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #ffe2b8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.top-menu {
+	background-color: #e8c66a;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.wrapper {
+	background-color: #ffe2b8;
+    border: 1px black solid;
+    padding: 20px;
+}
+}
