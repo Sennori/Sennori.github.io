@@ -139,6 +139,8 @@ aside {
 
 article {
 	padding: 2em;
+	float: left;
+	width: 50%;
 }
 
 footer {
@@ -205,5 +207,9 @@ section {
 	}
 	h1 {
 		font-size: 4em;
+	}
+	article {
+		float: none;
+		width: auto;
 	}
 }
